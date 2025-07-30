@@ -58,6 +58,7 @@ The application allows:
 ---
 
 ## 📂 Folder Structure
+
 Internshala_clone/
 
 │── backend/ # API & server code
@@ -89,15 +90,21 @@ Internshala_clone/
 ### **1️⃣ Clone Repository**
 
 git clone https://github.com/your-username/internshala-clone.git
+
 cd internshala-clone
+
 2️⃣ Backend Setup
 
 cd backend
+
 npm install
+
 npm start
 
 3️⃣ Frontend Setup
 
 cd ../internarea
+
 npm install
+
 npm run dev
