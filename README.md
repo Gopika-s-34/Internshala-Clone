@@ -59,36 +59,45 @@ The application allows:
 
 ## 📂 Folder Structure
 Internshala_clone/
+
 │── backend/ # API & server code
+
 │ ├── models/ # Mongoose models
+
 │ ├── routes/ # Express routes
+
 │ ├── controllers/ # Business logic
+
 │ ├── server.js # Entry point
+
 │── internarea/ # Frontend code
+
 │ ├── src/
+
 │ ├── components/ # UI components
+
 │ ├── pages/ # Main pages
+
 │ ├── assets/ # Images/icons
+
 │── package.json
+
 │── README.md
 
 ## ⚙️ Installation & Setup
 
 ### **1️⃣ Clone Repository**
-```bash
+
 git clone https://github.com/your-username/internshala-clone.git
 cd internshala-clone
 2️⃣ Backend Setup
-bash
-Copy
-Edit
+
 cd backend
 npm install
 npm start
+
 3️⃣ Frontend Setup
-bash
-Copy
-Edit
+
 cd ../internarea
 npm install
 npm run dev
