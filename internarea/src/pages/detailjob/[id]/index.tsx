@@ -116,7 +116,7 @@ const index = () => {
         const fetchdata = async () => {
             if (!id) return;
             try {
-                const res = await axios.get(`http://localhost:5000/api/job/${id}`);
+                const res = await axios.get(`https://internshala-clone-8uer.onrender.com/api/job/${id}`);
                 setjob(res.data)
             } catch (error) {
                 console.log(error)
@@ -152,7 +152,7 @@ const index = () => {
                     Application: id,
                     availability
                 }
-                await axios.post("http://localhost:5000/api/application", applicationdata)
+                await axios.post("https://internshala-clone-8uer.onrender.com/api/application", applicationdata)
                 toast.success("Application submit successfully")
                 router.push('/job')
             } catch (error) {
